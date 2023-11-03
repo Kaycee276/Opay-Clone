@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header{
+    display: flex;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+}
+
+#bayern{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-image: url(Opay.jpg);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#tel{
+    width: 20px;
+    height: 20px;
+    background: gold;
+    border-radius: 20px;
+}
+#muller{
+    width: 300px;
+}
+.ugbo{
+    font-size: 40px;
+    cursor: pointer;
+}
+#gnabry{
+    width: 400px;
+    /* background-color: grey; */
+    margin-top: 20px;
+    margin-left: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#nav{
+    height: 400px;
+    background: green;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: white;
+}
+
+#bal{
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    gap: 950px;
+    margin-left: 20px;
+}
+#bal p:hover{
+     cursor: pointer;
+}
+#bal h4:hover{
+    cursor: pointer;
+}
+#actbal{
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#actbal h2{
+    cursor: pointer;
+}
+#actbal h3{
+    margin-left: 136px;
+    margin-top: -31px;
+    cursor: pointer;
+}
+#actbal h4{
+    margin-top: -10px;
+    cursor: pointer;
+}
+#blud{
+    display: flex;
+    height: 160px;
+    gap: 90px;
+    
+}
+#mudryk{
+    width: 300px;
+    height: 140px;
+    margin-left: 100px;
+}
+#mudryk h4{
+    margin-top: 10px;
+    margin-left: 105px;
+}
+.ijele{
+    color: green;
+    font-size: 40px;
+}
+#mykhailo{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 115px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+#mykhailo:hover{
+    width: 180px;
+    height: 100px;
+    /* box-shadow: 4px 4px 4px black); */
+}
+/* #mykhailo::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 60px;
+    background: greenyellow;
+    opacity: 0;
+    transition: 0.5s;
+}
+#mykhailo:hover::before{
+    opacity: 0;
+}
+#mykhailo::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background: greenyellow;
+    opacity: 8;
+    transition: 0.5s;
+    z-index: -1;
+    filter: blur(15px);
+}
+#mykhailo:hover::after{
+    opacity: 8.5;
+}
+#mykhailo .joro{
+    color: #777;
+    font-size: 1.75em;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+#mykhailo:hover .joro{
+    transform: scale(0);
+    font-size: 1.75em;
+    transition-delay: 0.25s;
+}
+#mykhailo span{
+    position: absolute;
+} */
+
+#jackson{
+    width: 300px;
+    height: 140px;
+}
+#jackson h4{
+    margin-top: 10px;
+    margin-left: 117px;
+}
+#nicholas{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 115px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+#nicholas:hover{
+    width: 180px;
+    height: 100px;
+}
+#noni{
+    width: 300px;
+    height: 140px;
+}
+#noni h4{
+    margin-top: 10px;
+    margin-left: 115px;
+}
+#madueke{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 115px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+#madueke:hover{
+    width: 180px;
+    height: 100px;
+}
+#subnav{
+    height: 330px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: whitesmoke 4px 4px 4px; 
+    margin-top: 10px;
+}
+.jele{
+    font-size: 60px;
+    color: green;
+}
+#madrid{
+    width: 1200px;
+    height: 130px;
+    margin-left: 60px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 270px;
+}
+#toni{
+    text-align: center;
+}
+#kroos{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#kroos:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#luka{
+    text-align: center;
+}
+#modric{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#modric:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#borge{
+    text-align: center;
+}
+#casemiro{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#casemiro:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#alacron{
+    text-align: center;
+}
+#isco{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#isco:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#barca{
+    width: 1200px;
+    height: 130px;
+    margin-left: 60px;
+    margin-top: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 270px;
+}
+#hernandez{
+    text-align: center;
+}
+#xavi{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#xavi:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#lionel{
+    text-align: center;
+}
+#messi{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#messi:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#david{
+    text-align: center;
+}
+#villa{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#villa:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+#jordi{
+    text-align: center;
+}
+#alba{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(206, 240, 206);
+    /* background-color: blue !important; */
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+#alba:hover{
+    width: 160px;
+    border-radius: 30px;
+}
+.ijel{
+    color: green;
+    font-size: 90px;
+}
+#subnav2{
+    height: 150px;
+    background-color: whitesmoke;
+    box-shadow: whitesmoke 4px 4px 4px;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    transition: 0.5s;
+    /* position: relative;
+    transform: translateX(0); */
+}
+#psg{
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    background: rgb(206, 240, 206);
+    align-self: center;
+    display: grid;
+    place-items: center;
+    margin-left: 40px;
+    border: 3px solid green;
+}
+#lyon{
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#lyon h5{
+    margin-top: 30px;
+}
+#lille{
+    margin-left: 830px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 1px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+#subnav3{
+    height: 150px;
+    background-color: whitesmoke;
+    box-shadow: whitesmoke 4px 4px 4px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+}
+#brest{
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    background: green;
+    align-self: center;
+    color: whitesmoke;
+    margin-left: 40px;
+    line-height: 130px;
+    text-align: center;
+    font-family: cursive;
+    border: 3px solid green;
+}
+#monaco{
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#monaco h5{
+    margin-top: 30px;
+}
+#lens{
+    margin-left: 830px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 1px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+#footer{
+    height: 170px;
+    background-color: blue;
+    margin: -10px; 
+    margin-top: 500px;
+    box-shadow: bisque 4px 4px 4px;
+    background-color: whitesmoke;
+}
+#mancity{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+#gundo{
+    width: 30px;
+    height: 30px;
+    /* background-color: black; */
+}
+#gundo:hover{
+    color: greenyellow;
+}
+#kevin{
+    width: 30px;
+    height: 30px;
+    /* background-color: black; */
+}
+#kevin:hover{
+    color: greenyellow;
+}
+#ruben{
+    width: 30px;
+    height: 30px;
+    /* background-color: black; */
+}
+#ruben:hover{
+    color: greenyellow;
+}
+#silva{
+    width: 30px;
+    height: 30px;
+    /* background-color: black; */
+}
+#silva:hover{
+    color: greenyellow;
+}
+#kyle{
+    width: 30px;
+    height: 30px;
+    /* background-color: black; */
+}
+#kyle:hover{
+    color: greenyellow;
+}
+.chima{
+    font-size: 30px;
+    color: green;
+}
+.ogbu{
+    color: green;
+}
+.chim{
+    font-size: 30px;
+}
+#manu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
